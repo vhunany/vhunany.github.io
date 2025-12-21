@@ -25,9 +25,9 @@ export default function Drawings() {
           There is a sad face in the drawing that I did not draw—my teacher did. In elementary school, all the hubbub was around stick-figure drawings, which I thought looked boring and simple. But as you can see in the image on the right dated 6/2011… they got me. They got me, folks. And as you can see, she even drew a star on it.
         </p>
         
-        <p className="drawings-statement">
+        {/* <p className="drawings-statement">
           While it’s safe to say I was no art prodigy at five years old (and definitely not now either), I didn’t let this sad face deter me. I continued to draw.
-        </p>
+        </p> */}
       </div>
 
       <div className="featured-drawing-container">
