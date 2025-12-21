@@ -8,7 +8,7 @@ const drawingData = [
   { id: 2, src: "/gustav-unfinished.png", description: "Gustav Klimt Unfinished." },
   { id: 4, src: "/fashion.png", description: "Fashion." },
   { id: 5, src: "/cats.png", description: "Cats." },
-  { id: 6, src: "/Selfie.png", description: "Distorted Selfies." },
+  { id: 6, src: "/selfie.png", description: "Distorted Selfies." },
 ];
 
 export default function Drawings() {
