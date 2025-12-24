@@ -2,7 +2,7 @@ import React from "react";
 import "./Drawings.css";
 
 const drawingData = [
-  { id: 7, src: "/gustav-finished.png", description: "Finished." },
+  { id: 7, src: "/gustav-finished.png", description: "Gustav Klimt Finished." },
   { id: 3, src: "/woman-sitting.png", description: "Woman sitting." },
   { id: 1, src: "/current.png", description: "Currently working on." },
   { id: 2, src: "/gustav-unfinished.png", description: "Gustav Klimt Unfinished." },
