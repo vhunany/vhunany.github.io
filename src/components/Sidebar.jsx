@@ -10,10 +10,7 @@ export default function Sidebar() {
       </Link>
 
       <nav className="sidebar-nav">
-        <Link to="/">Home</Link>
-        
         <Link to="/about">About</Link>
-        
         <Link to="/projects">Projects</Link>
         <Link to="/drawings">Drawings</Link>
         <Link to="/contact">Contact</Link>
