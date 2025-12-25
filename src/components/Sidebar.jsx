@@ -5,13 +5,15 @@ import "./Sidebar.css";
 export default function Sidebar() {
   return (
     <aside className="sidebar">
-      {/* CHANGED: Wrapped name in Link to /home */}
-      <Link to="/home" className="sidebar-name">
+      <Link to="/" className="sidebar-name">
         Viktorya Hunanyan
       </Link>
 
       <nav className="sidebar-nav">
-        <Link to="/">About</Link>
+        <Link to="/">Home</Link>
+        
+        <Link to="/about">About</Link>
+        
         <Link to="/projects">Projects</Link>
         <Link to="/drawings">Drawings</Link>
         <Link to="/contact">Contact</Link>

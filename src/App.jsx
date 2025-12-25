@@ -6,7 +6,6 @@ import About from "./components/About";
 import Projects from "./components/Projects"; 
 import Contact from "./components/Contact"; 
 import Home from "./components/Home";
-
 import "./App.css";
 
 export default function App() {
@@ -16,8 +15,10 @@ export default function App() {
         <Sidebar />
         <main className="main-content">
           <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Home />} />
+            
+            <Route path="/about" element={<About />} />
+            
             <Route path="/projects" element={<Projects />} /> 
             <Route path="/drawings" element={<Drawings />} />
             <Route path="/contact" element={<Contact />} />
