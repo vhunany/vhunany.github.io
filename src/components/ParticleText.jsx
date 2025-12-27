@@ -14,7 +14,7 @@ const ParticleText = ({ text }) => {
 
     const fontSize = 18;
     const font = `${fontSize}px Arial, sans-serif`; 
-    const speed = 0.05; 
+    const speed = 0.06; 
     const scale = window.devicePixelRatio || 1;
 
     const init = () => {
